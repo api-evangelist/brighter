@@ -1,8 +1,30 @@
 aid: brighter
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brighter.png
 name: Brighter
-description: 'Brighter is a company surfaced as a portfolio company of general-catalyst, mayfield and
-  added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: >-
+  Brighter is a Santa Monica, California digital health technology company
+  founded in 2010 by internet entrepreneur Jake Winebaum that built a
+  consumer-driven dental benefits platform connecting dentists, patients, and
+  dental insurers. Brighter licensed digital engagement solutions to insurance
+  carriers, including online and mobile provider directories, patient reviews,
+  and its proprietary Brighter Schedule online appointment scheduling feature,
+  along with the Brighter PRO self-insured dental plan launched in 2014. Its
+  platform powered member-engagement tools for major dental insurers including
+  Cigna, Delta Dental, and Aetna. Backed by roughly $49M from General Catalyst,
+  Mayfield, Benchmark, DAG Ventures, and Tenaya Capital, Brighter was acquired
+  by Cigna in December 2017 and its technology folded into Cigna's digital
+  health offerings. The brand persists as a Cigna dental provider experience.
 url: https://raw.githubusercontent.com/api-evangelist/brighter/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +33,38 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: cigna
+x-acquired-date: '2017-12'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Dental
+- Health Insurance
+- Digital Health
+- Benefits
+- Appointment Scheduling
+- Provider Directory
 apis: []
+common:
+- type: DomainSecurity
+  url: security/brighter-domain-security.yml
+- type: Website
+  url: https://brighter.com
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Brighter
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/brighter
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
